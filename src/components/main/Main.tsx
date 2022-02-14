@@ -1,6 +1,18 @@
 import styled from 'styled-components';
 
 export const Main = styled.div`
-    backgroundColor: #d6e2f0;
-    width: 1440px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #d6e2f0;
+   
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+    @media screen and (max-width: 768px){
+       flex-direction: column;
+
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 `;
