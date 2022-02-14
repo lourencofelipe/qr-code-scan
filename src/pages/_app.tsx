@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
       <title>QR Code Scan</title>
       <meta name='description' content="Let's plan your saving goal." />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link rel='shortcut icon' type='image/x-icon' href='/favicon.png' />
+      <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     </Head>
 
     <Component {...pageProps} />
