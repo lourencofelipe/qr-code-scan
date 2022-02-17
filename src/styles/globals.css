@@ -18,36 +18,28 @@ a {
   border-radius: var(--border-radius);
   max-width: 100%;
   height: auto;
-
-  @media screen and (max-width: 1440px){
-    width: 75%;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  @media screen and (max-width: 600px){
-    width: 75%;
-  }
-
-  @media screen and (max-width: 376px){
-    width: 75%;
-  }
 }
 
 .internContainer {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  
 
-  @media screen and (max-width: 1440px){
-    width: 75%;
-    flex-direction: row;
-  }
+  @media screen and (min-width: 1440px){
+    padding-top: 25px;
+    width: 25vw;
+    flex-direction: column;
+  }  
 
-  @media screen and (max-width: 768px){
-    
+  @media screen and (min-width: 768px) and (max-width: 1440px){
+    width: 45vw;
+  }  
+
+  @media screen and (min-width: 440px){
+    padding-top: 25px;
     width: 100%;
-  }
+  } 
 }
 
 :root{

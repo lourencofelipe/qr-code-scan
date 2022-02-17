@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             href='https://fonts.gstatic.com/'
             crossOrigin='true'
           />
-          <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

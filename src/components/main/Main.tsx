@@ -10,9 +10,13 @@ export const Main = styled.div`
     align-items: center;
 
     @media screen and (max-width: 768px){
-       flex-direction: column;
-
+        flex-direction: column;
+        
         padding-right: 25px;
         padding-left: 25px;
     }
+
+    @media screen and (max-width: 1440px){
+        flex-direction: column;
+     }
 `;

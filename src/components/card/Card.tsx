@@ -8,23 +8,29 @@ export const Card = styled.div`
     align-items: center;
     justify-content: center;
     
+
     border-radius: var(--border-radius);
     box-sizing: border-box;
     box-shadow: 1px 2px 20px 0px lightgray;
 
-    @media screen and (min-width: 768px){
-        width: 50vw;
-        height: 61vh;
-        img {
-            width: 200px;
-            height: 210px;
-        }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        width: 45vw;
     } 
 
+    @media screen and (min-width: 768px) and (max-width: 1440px){
+        flex-direction: column;  
+       // width: 28vw;
+    }
 
-    @media screen and (min-width: 440px){
+     @media screen and (min-width: 1440px){
+        height: 56vh;
+        
+    } 
+
+    @media screen and (max-width: 440px){
         width: 100%;
-        height: 61vh;
+        height: 63vh;
         img {
             width: 200px;
             height: 210px;
