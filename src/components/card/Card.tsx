@@ -8,7 +8,6 @@ export const Card = styled.div`
     align-items: center;
     justify-content: center;
     
-
     border-radius: var(--border-radius);
     box-sizing: border-box;
     box-shadow: 1px 2px 20px 0px lightgray;
@@ -19,14 +18,12 @@ export const Card = styled.div`
     } 
 
     @media screen and (min-width: 768px) and (max-width: 1440px){
-        flex-direction: column;  
-       // width: 28vw;
+        flex-direction: column; 
     }
 
      @media screen and (min-width: 1440px){
-        height: 56vh;
-        
-    } 
+       padding-top: 16px;
+    }  
 
     @media screen and (max-width: 440px){
         width: 100%;
